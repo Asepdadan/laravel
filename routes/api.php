@@ -16,3 +16,7 @@ use Illuminate\Http\Request;
 Route::get('/user', function (Request $request) {
     return $request->user();
 })->middleware('auth:api');
+
+Route::get('/baru lagi dari local',function(){
+return "hello baru lagi update 1 direktori lagi dan lagi";
+});
