@@ -26,3 +26,7 @@ return "hello baru lagi";
 Route::get('/baru lagi dari local',function(){
 return "hello baru lagi update 1 direktori";
 });
+
+Route::get('/baru lagi dari local',function(){
+return "hello baru lagi update 1 direktori lagi";
+});
