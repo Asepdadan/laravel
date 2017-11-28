@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/baru dari local',function(){
 return "hello baru";
 });
+
+Route::get('/baru lagi dari local',function(){
+return "hello baru lagi";
+});
